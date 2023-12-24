@@ -1,0 +1,149 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: url(./vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+h1 {
+  margin-top: 5vw;
+}
+
+#generate-btn {
+  display: block;
+  background-color: #15dbe1;
+  margin: auto;
+  margin-bottom: 3vw;
+  border: none;
+  color: whitesmoke;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5vw;
+}
+
+#profile-card {
+  box-sizing: border-box;
+  min-width: 28vw;
+  background: linear-gradient(to top, white 0%, white 70%, rgb(14, 101, 223) 70%);
+  color: #000;
+  min-height: 25vw;
+  padding: 2vw 1vw;
+  border-radius: 1vw;
+  margin-top: 1vw;
+}
+
+#photo img {
+  display: block;
+  border-radius: 50%;
+  width: 8vw;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1.7vw;
+  border: linear-gradient(to top, white 0%, white 70%, rgb(14, 101, 223) 70%) solid 2vw;
+}
+
+#user-info {
+  display: block;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  font-weight: 600;
+}
+
+#user-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin-top: 1vw;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  body {
+    background: url(./vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 7vw;
+    margin-top: 15vw;
+    margin-bottom: 6vw;
+  }
+
+  #generate-btn {
+    font-size: 5vw;
+    padding: 2vw 4vw;
+    border-radius: 5vw;
+    margin-bottom: 12vw;
+  }
+  #profile-card {
+    min-width: 80vw;
+    min-height: 70vw;
+    padding: 5vw 2vw;
+    border-radius: 5vw;
+  }
+  #photo img {
+    width: 20vw;
+    border: linear-gradient(to top, white 0%, white 70%, rgb(14, 101, 223) 70%) solid 5vw;
+  }
+  .name {
+    font-size: 5vw;
+  }
+  #user-info {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  body {
+    background: url(./vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 7vw;
+    margin-top: 18vw;
+    margin-bottom: 4vw;
+  }
+
+  #generate-btn {
+    font-size: 5vw;
+    padding: 2vw 4vw;
+    border-radius: 5vw;
+    margin-bottom: 4vw;
+  }
+  #profile-card {
+    min-width: 50vw;
+    min-height: 50vw;
+    padding: 5vw 2vw;
+    border-radius: 5vw;
+  }
+  #photo img {
+    width: 20vw;
+    border: linear-gradient(to top, white 0%, white 70%, rgb(14, 101, 223) 70%) solid 5vw;
+  }
+  .name {
+    font-size: 5vw;
+  }
+  #user-info {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
